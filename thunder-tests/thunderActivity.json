@@ -4,11 +4,11 @@
     "colId": "history",
     "containerId": "",
     "name": "Update Special",
-    "url": "{{baseURL}}",
+    "url": "{{baseURL}}/courses/1",
     "method": "PATCH",
     "sortNum": 0,
     "created": "2022-06-14T00:46:17.343Z",
-    "modified": "2022-06-14T00:54:57.648Z",
+    "modified": "2022-06-14T01:14:56.270Z",
     "headers": [],
     "params": [],
     "tests": []
@@ -22,7 +22,7 @@
     "method": "GET",
     "sortNum": 0,
     "created": "2022-06-14T00:49:11.637Z",
-    "modified": "2022-06-14T00:54:46.883Z",
+    "modified": "2022-06-14T01:15:04.767Z",
     "headers": [],
     "params": [],
     "tests": []
@@ -36,7 +36,7 @@
     "method": "POST",
     "sortNum": 0,
     "created": "2022-06-14T00:49:11.637Z",
-    "modified": "2022-06-14T00:54:39.744Z",
+    "modified": "2022-06-14T01:14:52.483Z",
     "headers": [],
     "params": [],
     "tests": []
@@ -46,13 +46,18 @@
     "colId": "history",
     "containerId": "",
     "name": "Update",
-    "url": "{{baseURL}}/courses",
+    "url": "{{baseURL}}/courses/1",
     "method": "PUT",
     "sortNum": 0,
     "created": "2022-06-14T00:49:11.637Z",
-    "modified": "2022-06-14T00:54:50.727Z",
+    "modified": "2022-06-14T01:14:59.550Z",
     "headers": [],
     "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"variableJason\":22\n}",
+      "form": []
+    },
     "tests": []
   },
   {
@@ -60,11 +65,11 @@
     "colId": "history",
     "containerId": "",
     "name": "Delete",
-    "url": "{{baseURL}}/courses",
+    "url": "{{baseURL}}/courses/1",
     "method": "DELETE",
     "sortNum": 0,
     "created": "2022-06-14T00:49:11.637Z",
-    "modified": "2022-06-14T00:55:02.666Z",
+    "modified": "2022-06-14T01:14:54.550Z",
     "headers": [],
     "params": [],
     "tests": []
@@ -78,7 +83,7 @@
     "method": "GET",
     "sortNum": 0,
     "created": "2022-06-14T00:49:11.637Z",
-    "modified": "2022-06-14T00:55:32.884Z",
+    "modified": "2022-06-14T01:15:02.197Z",
     "headers": [],
     "params": [],
     "tests": []
