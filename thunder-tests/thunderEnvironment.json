@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "01658655-33fd-492e-8999-d12836154a08",
+    "name": "MyEnv",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2022-06-14T00:47:05.862Z",
+    "modified": "2022-06-14T00:49:40.666Z",
+    "data": [
+      {
+        "name": "baseURL",
+        "value": "http://localhost:3333"
+      }
+    ]
+  }
+]
