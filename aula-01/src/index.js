@@ -32,6 +32,7 @@ app.put("/courses/:id", (req, res) => {
   console.log(id);
   console.log(req.query);
   console.log(req.body);
+  console.log(req.headers);
   return res.json(["curso6", "curso2", "curso3", "curso4"]);
 });
 
