@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "_id": "a7950653-f425-42f8-9801-eb16660c0253",
+    "name": "const",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2022-06-15T13:21:11.147Z",
+    "modified": "2022-06-15T13:21:59.152Z",
+    "data": [
+      {
+        "name": "baseURL",
+        "value": "http://localhost:3333"
+      }
+    ]
+  }
+]

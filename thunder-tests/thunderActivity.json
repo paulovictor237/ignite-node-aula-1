@@ -31,5 +31,24 @@
     "headers": [],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "410bb2d6-35b4-401d-92f0-9745d0db8674",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{baseURL}}/deposit",
+    "url": "{{baseURL}}/deposit",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-06-15T13:24:17.838Z",
+    "modified": "2022-06-15T13:24:17.945Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"description\" : \"bananada\",\n    \"amount\" : \"123\"\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]
