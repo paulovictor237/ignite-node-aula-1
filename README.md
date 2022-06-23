@@ -9,17 +9,26 @@ node index.js # rodar + yarn dev
 yarn add uuid # cria keys e ids (unique keys)
 yarn add typescipt -D # permite rodar projetos no node
 yarn tsc --init # outra dependencia do ts
+```
+```bash
 # bibliotecas de ESLINT
 yarn add eslint -D
 yarn eslint --init
 #To check syntax, find problems and enforce code style.
-Javascript modules (import/export)
-None of these
-yes
-node
-Use a popular style guide
-Airbnb
-json
+# Javascript modules (import/export)
+# None of these
+# yes
+# node
+# Use a popular style guide
+# Airbnb
+# json
+yarn add -D @typescript-eslint/eslint-plugin@latest eslint-config-airbnb-base@latest eslint-plugin-import@^2.25.2 @typescript-eslint/parser@latest
+yarn add -D eslint-plugin-import-helpers eslint-import-resolver-typescript
+```
+
+```bash
+# adicionar configuracoes prettier
+yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
 ```
 
 # comandos
