@@ -1,24 +1,24 @@
 {
   "env": {
-    "es2021": true,
-    "jest": true,
-    "browser": true
+    "es2020": true,
+    "node": true,
+    "jest": true
   },
   "extends": [
     "prettier",
     "plugin:prettier/recommended",
-    "plugin:@typescript-eslint/recommended",
-    "airbnb-base"
+    "airbnb-base",
+    "plugin:@typescript-eslint/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "ecmaVersion": "latest",
+    "ecmaVersion": 12,
     "sourceType": "module"
   },
   "plugins": [
     "prettier",
-    "eslint-plugin-import-helpers",
-    "@typescript-eslint"
+    "@typescript-eslint",
+    "eslint-plugin-import-helpers"
   ],
   "rules": {
     "prettier/prettier": "error",

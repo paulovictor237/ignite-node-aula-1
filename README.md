@@ -9,6 +9,7 @@ node index.js # rodar + yarn dev
 yarn add uuid # cria keys e ids (unique keys)
 yarn add typescipt -D # permite rodar projetos no node
 yarn tsc --init # outra dependencia do ts
+yarn add ts-node-dev -D
 ```
 ```bash
 # bibliotecas de ESLINT
